@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lato:wght@300&family=Red+Rose:wght@400;600;700&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(10, 19, 86, 0.888)), url("./assets/pexels-maxyne-barcel-10402282 1.png");
+  overflow: hidden;
+  background-position-x: 100%;
+  background-position-y: 100%;
+}
+
+.logo {
+  float: left;
+  text-align: left;
+  padding: 10px 10px;
+  margin: 20px 20px;
+}
+
+.list-item {
+  list-style-type: none;
+  color: rgb(255, 185, 6);
+  display: inline;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+  top: 60px;
+  left: 200px;
+  padding: 60px;
+  font-size: large;
+}
+
+.button-small {
+  border: 0;
+  background-color: red;
+  color: white;
+  float: right;
+  align-content: right;
+  width: 15vh;
+  font-size: 2vh;
+  padding: 10px 10px;
+  margin: 28px 115px;
+}
+
+.hero-heading {
+  color: rgb(255, 185, 6);
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: -25vh;
+  font-family: 'Red Rose', cursive;
+  font-size: 108px;
+  font-weight: bolder;
+  margin: 30vh 15vw;
+  letter-spacing: -2px;
+  line-height: 120px;
+}
+
+
+.button-large {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
+  color: white;
+  position: relative;
+  top: -50vh;
+  left: 43vw;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 30px;
+}
+
+.bottom {
+  float: right;
+  align-content: right;
+  position: relative;
+  top: 30vw;
+  left: 30vh;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
